@@ -21,7 +21,7 @@ app = FastAPI(title="Task Management System", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # update to deployed frontend URL later
+    allow_origins=["https://task-management-2-8oei.onrender.com"],  # update to deployed frontend URL later
     allow_methods=["*"],
     allow_headers=["*"],
 )
